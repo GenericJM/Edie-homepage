@@ -240,7 +240,9 @@
     justify-items: center;
 
 }
-
+.fourth-section__subtitle{
+    color:var(--red);
+}
 .fourth-section__element:nth-child(1) {
     /* background-color: #0ad; */
     border-radius: 1em;
