@@ -5,23 +5,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poppins:wght@100;300&display=swap" rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
   <link rel="stylesheet" href="styles.css" />
   <title>Edie-Homepage-Master</title>
 </head>
+<a name=home></a>
 <header class="header">
-  <h1>Edie</h1>
+  <h2>Edie</h2>
   <spam class="material-symbols-outlined menu">
     menu
   </spam>
   <ul class="nav nav-active">
 
     <li class="nav__element">
-      <a class="nav__element-link" href="#">
+      <a class="nav__element-link" href="#home">
         <h4>Home</h4>
       </a>
     </li>
@@ -52,15 +53,15 @@
 
 <body class="body">
   <main class="main">
-    <section class="main__Section first-Section">
+    <section class="first-Section">
       <h6 class="first-Section__small-blue">Unhappy with your website?</h6>
       <h1>We create beautiful <br>
         and fast web services</h1>
     </section>
     <img src="/images/heroImage.jpg" class="heroImage" alt="heroImage"></img>
-    <section class="main__Section second-Section">
-      <h1 class="second-Section__title title-color">Story, emotion <br> and purpose</h1>
-      <p class="second-Section__text">
+    <section class="first-Section">
+      <h1 class="first-Section__title title">Story, emotion <br> and purpose</h1>
+      <p class="first-Section__text text">
         We help transform your ideas into real
         world applications that will outperform
         your toughest competition and help you
@@ -69,7 +70,7 @@
       </p>
       <form action="#" class="form">
         <label for="">
-          <h6>Want us to contact you?</h6>
+          <h5 class="second-Section__subtitle">Want us to contact you?</h5>
         </label>
         <div class="form__element">
           <input type="email" placeholder="Email" class="form__email">
@@ -77,86 +78,189 @@
         </div>
       </form>
     </section>
-    <section class="main__Section third-Section">
-      <h1 class="third-Section__element">We offer high <br>demand services</h1>
-      <div class="third-Section__grid">
-        <article class="third-Section__element">
+    <section class="second-Section section">
+      <h1 class="second-Section__title title">We offer high <br>demand services</h1>
+      <div class="second-Section__grid">
+        <article class="second-Section__element">
 
           <span class="material-symbols-outlined icon">
             edit
           </span>
           <h1>UI/UX Design</h1>
-          <p class="third-Section__text">
+          <p class="second-Section__text text">
             Lorem ipsum dolor sit amet, <br>
             consectetur adipiscing elit. Duis a<br>
             metus ac nulla consequat aliquet <br>
             id quis turpis.
           </p>
-          <button class="third-Section__button">Get started</button>
+          <button class="second-Section__button">Get started</button>
         </article>
-        <article class="third-Section__element">
+        <article class="second-Section__element">
 
           <span class="material-symbols-outlined icon">
             code
           </span>
           <h1>Front End</h1>
-          <p class="third-Section__text">
+          <p class="second-Section__text text">
             Lorem ipsum dolor sit amet, <br>
             consectetur adipiscing elit. Duis a<br>
             metus ac nulla consequat aliquet <br>
             id quis turpis.
           </p>
-          <button class="third-Section__button">Get started</button>
+          <button class="second-Section__button">Get started</button>
         </article>
-        <article class="third-Section__element">
+        <article class="second-Section__element">
 
           <span class="material-symbols-outlined icon">
             storage
           </span>
           <h1>Back End</h1>
-          <p class="third-Section__text">
+          <p class="second-Section__text text">
             Lorem ipsum dolor sit amet, <br>
             consectetur adipiscing elit. Duis a<br>
             metus ac nulla consequat aliquet <br>
             id quis turpis.
           </p>
-          <button class="third-Section__button">Get started</button>
+          <button class="second-Section__button">Get started</button>
         </article>
 
       </div>
     </section>
-    <section class="fourth-Section">
-      <h1 class="title">Good design means <br> good business</h1>
-      <div class="fourth-Section__gallery">
-        <article class="fourth-Section__element">
-          <img class="fourth-Section__image" src="images/smarthome.jpg" alt="smarthome">
-          <h5>Full stack application</h5>
-          <h3>Smart home dashboard</h3>
+    <section class="third-Section section">
+      <h1 class="third-Section__title title">Good design means <br> good business</h1>
+      <div class="third-Section__gallery">
+        <article class="third-Section__element">
+          <img class="third-Section__image" src="images/smarthome.jpg" alt="smarthome">
+          <h5 class="third-Section__subtitle">Full stack application</h5>
+          <h1>Smart home dashboard</h1>
         </article>
 
-        <article class="fourth-Section__element">
-          <img class="fourth-Section__image" src="images/onboard.png" alt="onboard">
-          <h5>UX/UI design</h5>
-          <h3>Onboard application</h3>
+        <article class="third-Section__element">
+          <img class="third-Section__image" src="images/onboard.png" alt="onboard">
+          <h5 class="third-Section__subtitle">UX/UI design</h5>
+          <h1>Onboard application</h1>
         </article>
-        <article class="fourth-Section__element">
-          <img class="fourth-Section__image" src="images/booking.png" alt="booking">
-          <h5>Mobile application</h5>
-          <h3>Booking system</h3>
+        <article class="third-Section__element">
+          <img class="third-Section__image" src="images/booking.png" alt="booking">
+          <h5 class="third-Section__subtitle">Mobile application</h5>
+          <h1>Booking system</h1>
         </article>
-        <article class="fourth-Section__element">
-         <img class="fourth-Section__image" src="images/juice-product.png" alt="juice-product">
-         <h5>Front End applicati on</h5>
-         <h3>Juice product homepage</h3>
+        <article class="third-Section__element">
+          <img class="third-Section__image" src="images/juice-product.png" alt="juice-product">
+          <h5 class="third-Section__subtitle">Front End applicati on</h5>
+          <h1>Juice product homepage</h1>
         </article>
       </div>
-      <a>see more <span class="material-symbols-outlined">
-        arrow_right_alt
-        </span></a>
+      <div class="third-Section__more">
+        <a>see more</a>
+        <span class="material-symbols-outlined arrow">
+          arrow_right_alt
+        </span>
+      </div>
+
+    </section>
+    <section class="fourth-section section">
+      <div class="fourth-section__main">
+        <h5 class="fourth-section__subtitle ">Meet the team</h5>
+        <h1 class="fourth-section__title">
+          We are chilled<br>
+          and a laidback<br>
+          team
+        </h1>
+        <p class="fourth-section__text text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+      </div>
+
+
+      <picture class="fourth-section__gallery">
+
+        <img class="fourth-section__element" src="/images/person3.png">
+
+
+        <div class="fourth-section__element">
+          <img class="fourth-section__image" src="/images/person1.png">
+          <img class="fourth-section__image" src="/images/person2.png">
+        </div>
+
+      </picture>
+    </section>
+    <section class="fifth-section section">
+      <h1 class="fifth-section__title title">
+        “Fast and outstanding resutls. Edie understands
+        their customer’s needs. They have a young and
+        talented team.”
+      </h1>
+      <article class="fifth-section__element">
+      
+          <img class="fifth-section__image" src="/images/person4.png" alt="Carlos Tran">
+       
+        <div class="fifth-section__text">
+          <h2>Carlos Tran</h2>
+          <h3 class="fifth-section__subtitle">The Decorate Gatsby</h3>
+        </div>
+        
+
+      </article>
     </section>
   </main>
+  <script src="index.js"></script>
+  <footer class="footer">
+    <section class="footer__firsth-section">
+      <ul class="footer__element footer-nav">
+
+      <li class="footer-nav__element">
+        <a class="nav__element-link footer-nav__element-link" href="#home">
+          <h4>Home</h4>
+        </a>
+      </li>
+      <li class="footer-nav__element">
+        <a class="nav__element-link footer-nav__element-link" href="#">
+          <h4>Services</h4>
+        </a>
+      </li>
+      <li class="footer-nav__element">
+        <a class="nav__element-link footer-nav__element-link" href="#">
+          <h4>Our Works</h4>
+        </a>
+      </li>
+      <li class="footer-nav">
+        <a class="nav__element-link footer-nav__element-link" href="#">
+          <h4>Clients</h4>
+        </a>
+      </li>
+      <li class="footer-nav">
+        <a class="nav__element-link footer-nav__element-link" href="#">
+          <h4>Contact</h4>
+        </a>
+      </li>
+  
+    </ul>
+    <div class="footer__element">
+      <h1>Edie</h1>
+      <a href="https://www.linkedin.com/" target="_blank">
+      <img src="images/linkedin.svg" alt="linkedin logo">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="images/instagram.svg" alt="instagram logo">
+      </a>
+      <a href="https://www.twitter.com/" target="_blank">
+        <img src="images/twitter.svg" alt="twitter logo">
+      </a>
+    </div>
+    <form action="#" class="footer__element form">
+      <label for="">
+        <h5 class="second-Section__subtitle">Want us to contact you?</h5>
+      </label>
+      <div class="form__element">
+        <input type="email" placeholder="Email" class="form__email">
+        <input type="button" value="Join" class="form__button">
+      </div>
+    </form>
+    </section>
+    
+    <h5 class="footer__about">created by <a href="#">GenericJM</a> - devChallenges.io</h5>
+  </footer>
 
 </body>
-<script src="index.js"></script>
+
 
 </html>
